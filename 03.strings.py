@@ -26,3 +26,30 @@ a, b, c, d, e, f = language
 print(a)
 print(b)
 
+#Division de strings#
+language_slice = language[0:3] #Pyt
+print(language_slice)
+language_slice = language[3:] #hon
+print(language_slice)
+language_slice = language[-2] #o
+print(language_slice)
+language_slice = language[0:6:2] #Pto
+
+#Reverse string#
+
+language_slice = language[::-1] #nohtyP
+print(language_slice)
+
+#Funciones de los strings#
+print(language.capitalize())
+print(language.upper()) 
+print(language.count('t')) 
+print(language.isnumeric()) 
+print(language.lower())
+print(language.upper().isupper()) 
+print(language.startswith('Py'))
+
+
+
+
+
